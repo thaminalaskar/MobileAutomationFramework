@@ -4,8 +4,8 @@
 <suite name="Selenium Test Suite" parallel="false">
 
     <parameter name="platform" value="android"/>
-    <parameter name="deviceName" value="R58N35NNPGA"/>
-    <parameter name="platformVersion" value="10"/>
+    <parameter name="deviceName" value="d3dc68a5"/>
+    <parameter name="platformVersion" value="11"/>
 
     <test name="Automation tests">
         <classes>
