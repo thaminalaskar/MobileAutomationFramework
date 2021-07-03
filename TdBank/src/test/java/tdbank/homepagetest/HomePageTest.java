@@ -2,13 +2,13 @@ package tdbank.homepagetest;
 
 import com.td.pages.HomePage;
 import com.td.pages.LoginPage;
-import com.tdbank.datatest.DataProviderTest;
 import common.TestBase;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import reporting.ExtentTestManager;
+import tdbank.datatest.DataProviderTest;
 
 public class HomePageTest extends TestBase {
 
