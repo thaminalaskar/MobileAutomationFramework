@@ -19,9 +19,9 @@ public class AppiumConnection {
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
         DesiredCapabilities cap = new DesiredCapabilities();
-        cap.setCapability(MobileCapabilityType.DEVICE_NAME,"d3dc68a5");
+        cap.setCapability(MobileCapabilityType.DEVICE_NAME,"R38JB02DEBN");
         cap.setCapability(MobileCapabilityType.PLATFORM_NAME, MobilePlatform.ANDROID);
-        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"11");
+        cap.setCapability(MobileCapabilityType.PLATFORM_VERSION,"9");
         cap.setCapability(MobileCapabilityType.APP_PACKAGE,"com.tdbank");
         cap.setCapability(MobileCapabilityType.APP_ACTIVITY,"com.td.dcts.android.us.app.SplashScreenActivity");
 

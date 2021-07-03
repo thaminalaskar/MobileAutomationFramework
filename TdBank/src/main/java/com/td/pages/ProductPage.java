@@ -1,10 +1,10 @@
 package com.td.pages;
 
-import common.TestBase;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class ProductPage extends TestBase {
+public class ProductPage  {
 
     @FindBy(xpath = "//android.widget.TextView[@text='Products']")
     WebElement productButton;
@@ -16,11 +16,11 @@ public class ProductPage extends TestBase {
     WebElement textCheckingAccount;
 
     public boolean productButtonOnDisplay(){
-       return productButton.isDisplayed();
+        return productButton.isDisplayed();
     }
 
     public boolean checkingButtonIsDisplay(){
-      return  checkingAccount.isDisplayed();
+        return  checkingAccount.isDisplayed();
     }
 
     public void clickOnProductButton() throws InterruptedException {
@@ -32,8 +32,14 @@ public class ProductPage extends TestBase {
         functionSwipe("Up",200,200);
     }
 
+    private void functionSwipe(String up, int i, int i1) {
+    }
+
+    private void sleep(int i) {
+    }
+
     public boolean textOnCheckingAccount(){
-       return textCheckingAccount.isDisplayed();
+        return textCheckingAccount.isDisplayed();
     }
 
 

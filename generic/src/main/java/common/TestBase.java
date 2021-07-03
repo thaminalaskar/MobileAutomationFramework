@@ -42,9 +42,6 @@ public class TestBase {
     private static ExtentReports extent;
 
     /**
-     * @param platform        : platform of the mobile device
-     * @param deviceName      : udid if the device
-     * @param platformVersion
      * @throws MalformedURLException
      */
 
