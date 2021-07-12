@@ -16,11 +16,11 @@ public class ProductPage  {
     WebElement textCheckingAccount;
 
     public boolean productButtonOnDisplay(){
-        return productButton.isDisplayed();
+       return productButton.isDisplayed();
     }
 
     public boolean checkingButtonIsDisplay(){
-        return  checkingAccount.isDisplayed();
+      return  checkingAccount.isDisplayed();
     }
 
     public void clickOnProductButton() throws InterruptedException {
@@ -39,7 +39,7 @@ public class ProductPage  {
     }
 
     public boolean textOnCheckingAccount(){
-        return textCheckingAccount.isDisplayed();
+       return textCheckingAccount.isDisplayed();
     }
 
 

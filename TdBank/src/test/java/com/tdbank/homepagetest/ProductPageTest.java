@@ -1,4 +1,4 @@
-package tdbank.homepagetest;
+package com.tdbank.homepagetest;
 
 import com.td.pages.ProductPage;
 import common.TestBase;
@@ -7,6 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import reporting.ExtentTestManager;
+
+//mport java.util.logging.Logger;
 
 public class ProductPageTest extends TestBase {
     private static final Logger logger = Logger.getLogger(ProductPageTest.class);
